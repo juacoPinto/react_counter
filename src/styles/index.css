@@ -1,12 +1,18 @@
-
-/* 
-
-    You can write your own styles here...
+body{
+    color: white;
+}
+.counter{
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+    height: 130px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 65px;
+}
+.first, .second, .third, .fourth, .fifth, .sixth, .number{
+    background-color: rgb(27, 27, 27);
+    border-radius: 5px;
+    width: 65px;
+    margin: 5px;
+}
